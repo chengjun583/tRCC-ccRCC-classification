@@ -5,17 +5,17 @@ We extracted 150 morphological features from H&E stained whole-slide images and 
 
 Experiment 1: comparing each feature between the two subtypes
 ---
-(This corresponds to the folder "1-uTest")<br>
+(It corresponds to the folder "1-uTest")<br>
 The Mann-Whitney U test was used to compare the 150 image features between tRCC and ccRCC, and the false discovery rate procedure was used for multiple testing corrections.
 
 Experiment 2: evaluating the performance of four classifiers on dataset 1 with five-fold cross validation 
 ---
-(This corresponds to the folder "2-classification-5fold")<br>
+(It corresponds to the folder "2-classification-5fold")<br>
 Dataset 1 is an internal dataset from Indiana University, containing 50 tRCC cases and 50 ccRCC cases with matched gender and tumor grade. Based on the image features, we trained and tested four classifiers (logistic regression, random forest, SVM with Gaussian kernel, and SVM with linear kernel) with five-fold cross validation to classify tRCC and ccRCC. 
 
 Experiment 3: evaluating the performance of four classifiers on an external validation set (dataset 2) 
 ---
-(This corresponds to the folder "3-classification-extVal")<br>
+(It corresponds to the folder "3-classification-extVal")<br>
 Dataset 2 is an external validation dataset from the Univeristy of Michigan and TCGA, containing 24 tRCC cases and 24 ccRCC cases with matched gender and tumor grade. Based on the image features, we trained the four classifiers using dataset 1 and test them using dataset 2.
 
 What is each folder for?
