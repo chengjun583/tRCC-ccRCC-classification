@@ -24,7 +24,7 @@ Folders "1-uTest", "2-classification-5fold", and "3-classification-extVal" corre
 
 How to run the code
 ---
-For the three abovementioned experiments, run the scripts in the corresponding folders sequentially as indicated by the file names (run "m1_xxx" first, then 'm2_xxx').
+The code is written in MATLAB and R. For the three abovementioned experiments, run the scripts in the corresponding folders sequentially as indicated by the file names (run "m1_xxx" first, then 'm2_xxx').
 
 Contact information
 ---
